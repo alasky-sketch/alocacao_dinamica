@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*Primeiro,foi declarado o array juntamente da variável de controle dos loops e o tamanho do array*/
-/*Em seguida, utilizando a funçao mallloc, um espaço na memória foi alocado para o vetor de 5 numeros inteiros e com o argumento (tamanho * sizeof(int) é retornado o tamannho em bytes*/
+/*Em seguida, utilizando a funçao mallloc, um espaço na memória foi alocado para o vetor de 5 numeros inteiros e com a funcao sizeof é retornado o tamannho em bytes*/
 /*Entao, é feita uma verificação se a memoria foi alocada com sucesso*/
 /*Depois disso, é pedido para o usuário que digitasse cinco numeros*/
 /*Após a leitura, os números inseridos são exibidos na tela*/
@@ -28,4 +28,5 @@ int main() {
     free(a);
     return 0;
 }
+
 
