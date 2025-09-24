@@ -61,7 +61,8 @@ int main() {
     printf("String sem vogais: %s\n", s);
 
     
-    free(minhaString);
+    free(s);
     
     return 0;
+
 }
